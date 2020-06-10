@@ -1,0 +1,143 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2D3748;
+    background-color: #F3F9FF !important;
+    width: 66.7%;
+    margin: auto !important;
+}
+
+nav {
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+}
+
+.nav-link {
+    margin-left: auto;
+    padding: 5px;
+    padding-right: 0;
+}
+
+#header-text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+}
+
+#current-work {
+    color: #44A3FF;
+}
+
+.header {
+    display: flex;
+    margin-top: 60px;
+    height: 200px;
+    line-height: 200px; 
+}
+
+#profile-image {
+    margin-left: auto;
+    padding-right: 0;
+    height: 192px;
+    width: 192px;
+}
+
+.section-title {
+    color: #44A3FF;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.info-title {
+    color: #2d3748;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.info-title a {
+    transition: color 0.3s ease-in-out;
+}
+
+.info-title a:hover {
+    cursor: pointer;
+    color: #3290EC;
+}
+
+/* .info-title a:visited {
+    color: #2d3748;
+} */
+
+.info-link {
+    color: #2d3748;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.info-link:hover {
+    cursor: pointer;
+    color: #3290EC;
+}
+
+/* .info-link:visited {
+    color: #2d3748;
+} */
+
+a {
+    color: #2d3748;
+}
+
+#case-section {
+    margin-top: 40px;
+}
+
+#also-section {
+    margin-top: 40px;
+}
+
+@media (max-width: 1230px) {
+
+    body {
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    body {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 630px) {
+
+    #profile-image {
+        height: 130px;
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 465px) {
+
+    #profile-image {
+        display: none;
+    }
+
+}
