@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: 'Inter', sans-serif;
     color: #2D3748;
     background-color: #F3F9FF !important;
@@ -10,6 +10,14 @@ nav {
     margin-top: 80px;
     display: flex;
     text-align: center;
+}
+
+.logo {
+    transition: color 0.3s ease-in-out;
+}
+
+.logo:hover {
+    filter: invert(27%) sepia(88%) saturate(1633%) hue-rotate(194deg) brightness(91%) contrast(81%);
 }
 
 .nav-link {
@@ -32,7 +40,7 @@ nav {
 .header {
     display: flex;
     margin-top: 60px;
-    height: 200px;
+    /* height: 200px; */
     line-height: 200px; 
 }
 
@@ -72,10 +80,6 @@ nav {
     color: #3290EC;
 }
 
-/* .info-title a:visited {
-    color: #2d3748;
-} */
-
 .info-link {
     color: #2d3748;
     font-size: 20px;
@@ -93,10 +97,6 @@ nav {
     color: #3290EC;
 }
 
-/* .info-link:visited {
-    color: #2d3748;
-} */
-
 a {
     color: #2d3748;
 }
@@ -107,6 +107,192 @@ a {
 
 #also-section {
     margin-top: 40px;
+}
+
+#article-header-text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #2D3748;
+}
+
+.row {
+    display: flex;
+}
+
+.row-section {
+    margin-right: 40px;
+}
+  
+.col-1 {
+    flex: 60%;
+}
+
+.col-2 {
+    display: flex;
+    flex: 40%;
+}
+
+.article-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #2D3748;
+}
+
+pre.article-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2D3748;
+    white-space: pre-line;
+
+}
+
+.list-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    font-size: 20px;
+    margin-top: 36px;
+    letter-spacing: -0.01em;
+    margin-bottom: 36px;
+}
+
+.list-text-item {
+    margin-top: 8px;
+}
+
+.article-subtitle {
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.article-header {
+    flex-direction: column;
+}
+
+.article-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #2D3748;
+    margin-bottom: 12px;
+}
+
+.header-img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.teaser {
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: -0.01em;
+    margin-bottom: 60px;
+}
+
+.article {
+    position: relative;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.overline {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    color: #707B8F;
+}
+
+.lb-section {
+    background: #E8F3FF;
+    width: 99.225vw;
+    position: relative;
+    margin-left: -49.59vw;
+    left: 50%;
+    margin-top: 70px;
+}
+
+.lb-inner {
+    width: 66.7%;
+    margin: auto !important;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.overlap-img {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.bolder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    margin-right: 80px;
+}
+
+.col-2-1 {
+    display: flex;
+    flex: 40%;
+}
+
+.big-bolder {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+}
+
+.seventy {
+    margin-top: 70px;
+}
+
+.filter-white {
+    margin-top: 2px;
+    filter: invert(95%) sepia(96%) saturate(1%) hue-rotate(196deg) brightness(106%) contrast(100%);
+}
+
+#blue-box {
+    background: #2D3748;
+    border-radius: 12px;
+    padding: 18px 20px 18px 20px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+#blue-box p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-weight: 600px;
+}
+
+#blue-box:hover {
+    cursor: pointer;
+    background: #4d7bf3;
+    transition: background 0.9s ease-in-out;
+    
 }
 
 @media (max-width: 1230px) {
@@ -132,12 +318,20 @@ a {
         width: 130px;
     }
 
+    .col-2 {
+        display: none;
+    }
+
 }
 
 @media (max-width: 465px) {
 
     #profile-image {
         display: none;
+    }
+
+    .mobile-stack {
+        flex-direction: column;
     }
 
 }
