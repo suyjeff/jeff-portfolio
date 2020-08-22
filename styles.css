@@ -35,6 +35,11 @@ nav {
 
 #current-work {
     color: #44A3FF;
+    text-decoration: none;
+}
+
+#current-work:hover {
+    cursor: pointer;
 }
 
 .header {
@@ -165,6 +170,20 @@ pre.article-text {
 
 .list-text-item {
     margin-top: 8px;
+}
+
+#about-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.about-link:hover {
+    cursor: pointer;
+    color: #3290EC;
 }
 
 .article-subtitle {
