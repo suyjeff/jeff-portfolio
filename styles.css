@@ -42,6 +42,15 @@ nav {
     cursor: pointer;
 }
 
+#current-work:hover span {
+    display: none;
+}
+
+#current-work:hover:before {
+    content: "Welfie, open for Summer '21.";
+
+}
+
 .header {
     display: flex;
     margin-top: 60px;
