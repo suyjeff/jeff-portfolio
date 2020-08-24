@@ -318,6 +318,7 @@ pre.article-text {
 
     body {
         width: 85%;
+        margin: auto;
     }
 
 }
@@ -326,6 +327,7 @@ pre.article-text {
 
     body {
         width: 90%;
+        margin: auto;
     }
 
 }
@@ -337,16 +339,39 @@ pre.article-text {
         width: 130px;
     }
 
+    #also-section {
+        margin-bottom: 70px;
+    }
+
     .col-2 {
         display: none;
+    }
+
+    .overlap-img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .lb-inner {
+        width: 66.7%;
+        margin: auto !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 }
 
 @media (max-width: 465px) {
 
+    .header {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
     #profile-image {
-        display: none;
+        /* display: none; */
+        margin-right: auto;
+        margin-left: 0;
     }
 
     .mobile-stack {
