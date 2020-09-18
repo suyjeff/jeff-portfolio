@@ -323,6 +323,15 @@ pre.article-text {
     
 }
 
+.highlight {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    /* or 133% */
+    letter-spacing: -0.03em;
+}
+
 @media (max-width: 1230px) {
 
     body {
