@@ -9,11 +9,10 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-176083075-1');
         </script>
         <title>Jeffrey Su - MuleSoft Productivity</title>
-        <link href="styles.css" rel="stylesheet" type="text/css" media="all">
+        <link href="dark.css" rel="stylesheet" type="text/css" media="all">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
@@ -22,17 +21,166 @@
 
     <body>
 
-        <nav>
-            <a class="logo" href="index.html"> <img src="assets/jeff-logo-dark.png" alt="Jeff Logo"></a>
-        </nav>
-
-        <div class="header article-header">
-            <h2 class="article-title">Improving Platform Productivity at MuleSoft</h2>
-            <h3 class="article-subtitle">Coming soon! Currently migrating from my previous portfolio.</h3>
-            <!-- <img class="header-img" src="#" alt="The final version of the new Anypoint Platform home page."> -->
+        <div class="contained">
+            <nav>
+                <a class="logo" href="index.html"> <img src="assets/jeff-logo-dark.png" alt="Jeff Logo"></a>
+            </nav>
+            <div class="header article-header dark">
+                <img class="graphic seventy" src="assets/mulesoft/header_img.png" alt="Some of the new components in the Anypoint Platform home page.">
+                <div id="header-stuff" class="seventy">
+                    <div class="left-stuff">
+                        <h2 class="title">Pushing Productivity</h2>
+                        <p id="grey-title"><span id="blue-title">MuleSoft</span>, Anypoint Platform</p>
+                    </div>
+                    <div class="right-stuff">
+                        <p id="grey-subtitle">Improving workflow productivity and personalization on the leading integrations and API platform.</p>
+                    </div>
+                </div>
+                <div class="row mobile-stack">
+                    <div class="row-section">
+                        <p class="overline">Duration</p>
+                        <p class="overline-text">Summer 2020</p>
+                    </div>
+                    <div class="row-section">
+                        <p class="overline">Role</p>
+                        <p class="overline-text">UX Design Intern, MuleSoft</p>
+                    </div>
+                    <div class="row-section">
+                        <p class="overline">Deliverables</p>
+                        <p class="overline-text">UI/UX for Web App, User Research, Prototype</p>
+                    </div>
+                    <div class="row-section">
+                        <p class="overline">Platforms</p>
+                        <p class="overline-text">Web</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="white-section">
+            <div class="contained">
+                <p class="whitebg-header" style="padding-top: 100px;">A platform is more than its products</p>
+                <p class="whitebg-text">For complex, time-sensitive projects, MuleSoft's Anypoint Platform offers dozens of compelling products in a fast and capable environment. 
+                    For small and large teams alike, the Anypoint suite was more than enough to manage their integrations and APIs. 
+                    However, what the platform excelled at in its products, it lacked in cohesiveness. 
+                    Suites like Google Drive and Office 365 succeed in part because of their excellent tools, but perhaps more so because 
+                    their users understand how those tools connect and function as a platform. This wasn't the case for Anypoint; users 
+                    commonly excelled within certain tools, but failed to understand how these tools could work t
+                    ogether to create a more productive workflow.
+                </p>
+                <img class="graphic seventy" src="assets/mulesoft/product_list_graphic.png" alt="A list of tools, poor for user comprehension">
+                <p class="whitebg-header" style="padding-top: 70px;">Who needs a home page?</p>
+                <p class="whitebg-text">Internal research and user interviews showed us that most people <span class="semibolder">didn't even use</span> the Anypoint Platform’s home page. 
+                    Most of them directly entered the first tool in their workflow and jumped between their necessary tools without ever touching home base. 
+                    Was this efficient? Definitely not. But with most users being unaware of the best practices on the platform, they 
+                    were left "hopping" between all of the different tools–often without direction.
+                </p>
+                <img class="graphic seventy" style="padding-bottom: 70px;" src="assets/mulesoft/old_home.png" alt="The old Anypoint Platform home page">
+            </div>
+        </div>
+
+        <div class="blue-gradient-section">
+            <div class="contained">
+                <div class="row-2">
+                    <div style="vertical-align: middle;">
+                        <p class="gradbg-header" style="padding-top: 70px;">Existing Problems</p>
+                        <p class="gradbg-text">In order to get more context on the home page's problems, I consulted 
+                            previously conducted internal design reviews, user research on platform navigation, usability studies, 
+                            and had conversations with other MuleSoft workers who could speak from the perspective of our wide user base. <br> <br>
+                            These contextual searches gave way to a few prominent issues, but one sentiment was more present than anything else: 
+                            feeling "lost". The lack of interconnectedness left users feeling lost when trying to find features, lost in a sea of 
+                            tools when trying to reach their projects, and ultimately confused–especially for newer users.
+                        </p>
+                    </div>
+                    <div>
+                        <img class="graphic seventy" style="padding-bottom: 70px;" src="assets/mulesoft/sentiment_bubbles.png" alt="Sentiments from different user research sessions">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="white-section">
+            <div class="contained">
+                <p class="whitebg-header" style="padding-top: 100px; margin-top: 0;">The journey over the destination</p>
+                <p class="whitebg-text">Armed with new sentiments and research, I hypothesized that helping our users find their place in the 
+                    Anypoint Platform would require centering my designs around improving the user journey throughout the platform. 
+                    This would come through <span class="semibolder">establishing more contextual navigation</span>, helping users <span class="semibolder">consume their content rather than 
+                        hop between tools</span>, and <span class="semibolder">reducing the barrier of entry</span> for new users. Recentering the home page around workflows and 
+                    projects should result in all users experiencing the MuleSoft promise of fast and easy integrations and APIs.
+                </p>
+                <img class="graphic seventy" src="assets/mulesoft/journey_graphic.png" alt="An overview of the new components and actions">
+                <p class="whitebg-header" style="padding-top: 50px;">Pushing productivity first</p>
+                <p class="whitebg-text" style="padding-bottom: 100px; margin-bottom: 0;">The Anypoint Platform's core idea was that efficiency and interconnectedess are the basis for producing critical 
+                    integrations and managing APIs at any scale. It was important that the experience also be focused around integrations and how tools can work 
+                    together, rather than individually.
+                </p>
+            </div>
+        </div>
+
+        <div class="purple-gradient-section">
+            <div class="contained">
+                <img class="graphic" style="padding-top: 100px;" src="assets/mulesoft/quickstart_graphic.png" alt="The new quick start component">
+                <p class="gradbg-header" style="padding-top: 70px;">A new north star</p>
+                <p class="gradbg-text" style="padding-bottom: 100px; margin-bottom: 0;">It was clear that our users often got lost searching for important actions in the platform; 
+                    they were hard to find as they were usually stashed away in menus within Anypoint's various tools. To alleviate 
+                    these pains and give users a more centralized point of control, I designed a new "quick start" component. Using 
+                    his, we could offer users personalized content guides and task flow starting points. This helps them jump into the 
+                    platform more easily if they're a new user, or move through their work more efficiently if they're more experienced.
+                </p>
+            </div>
+        </div>
+
+        <div class="white-section">
+            <div class="contained">
+                <img class="graphic" style="padding-top: 100px;" src="assets/mulesoft/recents_graphic.png" alt="An overview of the new components and actions">
+                <p class="whitebg-header" style="padding-top: 100; margin-top: 0;">Faster and clearer work</p>
+                <p class="whitebg-text" style="padding-bottom: 100px; margin-bottom: 0;">To access their projects, users needed to dive into the navigation drawer's 
+                    recent items or list or dive into their tool from the home page and then navigate further to their project. 
+                    This not only slowed down their workflow, but more importantly, made users feel like their work 
+                    was siloed into a bunch of different tools rather than on one fluid platform. Showing our users 
+                    their most recent projects and suggesting potential next steps saves time and helps users understand how the web of tools collaborate.
+                </p>
+            </div>
+        </div>
+        
+        <div class="blue-gradient-section">
+            <div class="contained">
+                <img class="graphic" style="padding-top: 100px;" src="assets/mulesoft/learning_graphic.png" alt="The home page adapts to the user as they learn more.">
+                <p class="gradbg-header" style="padding-top: 70px;">Always learning and adapting</p>
+                <p class="gradbg-text" style="padding-bottom: 100px; margin-bottom: 0;">As a new intern at MuleSoft, I had to undergo a week of training in the 
+                    Anypoint Platform to fully grasp its capabilities. It was through this training period where I realized the importance of a 
+                    modular home page that could grow with the user. As most users don't have the same amount of experience with APIs and integrations, 
+                    the home page will change which resources, quick start items, tools, and more that it displays. Additionally, the new home page changes 
+                    how those items are displayed, ensuring that no user is left in the dark about any tool or functionality.
+                </p>
+            </div>
+        </div>
+
+        <div class="dark-section">
+            <div class="contained">
+                <img class="graphic" style="padding-top: 100px;" src="assets/mulesoft/final_graphic.png" alt="A showcase of the final layout of the redesign">
+                <p class="gradbg-header" style="padding-top: 90px;">Productivity in motion</p>
+                <p class="gradbg-text" style="padding-bottom: 60px; margin-bottom: 0;">Platforms are about more than their tools. The most successful in the productivity 
+                    sector are often those that, along with polished and useful products, are easy for users to understand and grasp. For the Anypoint Platform, 
+                    users needed an anchor that could help them establish a deeper understanding of the platform while also adding long needed 
+                    features that could improve work flows. As I worked on this project, it became more and more about empowering users to see the platform 
+                    differently, rather than just a redesign. Ultimately, the redesign has received lots of positive feedback from the larger design team, 
+                    internal stakeholders, and representatives of customer groups. Hopefully, this can be the push in productivity that enables the 
+                    Anypoint Platform to reach new heights. <br> <br>
+                    Here is an example prototype, view it in full screen for the best experience!
+                </p>
+                <div>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin-bottom: 60px;" width="100%;" height="600px;"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwnSeQ7ASpK5Xl4ibvQTjgs%2FMuleSoft-20-Prototype%3Fnode-id%3D1%253A280%26viewport%3D1134%252C692%252C0.14996372163295746%26scaling%3Dmin-zoom&chrome=DOCUMENTATION" allowfullscreen></iframe>
+                </div>
+                <div style="margin-top: 100px; margin-bottom: 200px;">
+                    <p class="project-switch">Another Project</p>
+                    <p class="info-title"><a class="info-link" style="font-size: 24px;" href="onfostudy.html">Redesigning the Onfo Mobile App</a></p>
+                </div>
+            </div>
+        </div>
+
+        
        
     </body>
-
 
 </html>
