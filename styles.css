@@ -47,9 +47,9 @@ nav {
   display: none;
 }
 
-#current-work:hover:before {
+/* #current-work:hover:before {
   content: "Risk Harbor, open for roles.";
-}
+} */
 
 .header {
   display: flex;
